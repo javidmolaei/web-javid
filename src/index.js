@@ -7,7 +7,11 @@ import ColorTabs from './component/ColorTabs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <div>
   <ColorTabs />
+
+    <h1>kire khar</h1>
+  </div>
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
