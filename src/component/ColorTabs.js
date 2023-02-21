@@ -15,6 +15,9 @@ export default function ColorTabs() {
     setValue(newValue);
   };
 
+  const mystyle = {
+    fontWeight: 'bold'
+  };
 
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -26,6 +29,7 @@ export default function ColorTabs() {
             textColor="inherit"
             indicatorColor="primary"
             aria-label="secondary tabs example"
+            
           >
 
             <Tab value="zero" icon={<HomeRoundedIcon />} />
