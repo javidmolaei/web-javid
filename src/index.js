@@ -5,12 +5,14 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import ColorTabs from "./component/ColorTabs";
 import Slogan from "./component/Slogan";
+import BasicCard from "./component/BasicCard";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
     <ColorTabs />
     <Slogan />
+    <BasicCard />
   </div>
 );
 
